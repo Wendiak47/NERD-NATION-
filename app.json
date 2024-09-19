@@ -99,7 +99,6 @@
       },
       "PREFIX": {
         "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-        "required": false
         "value": ""
       },
       "OWNER_NUMBER": {
