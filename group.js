@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "BLADE-MD-V2",
+           title: "NARUTO-MD",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -134,7 +134,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "BLADE-MD-V2",
+           title: "NARUTO-MD",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -302,7 +302,7 @@ const {
      }
      try {
        await _0x25d56b.bot.groupUpdateSubject(_0x25d56b.chat, _0x332d77);
-       _0x25d56b.reply("*_✅Group Name Updated Successfuly.!_*");
+       _0x25d56b.reply("*_🌀🍥Group Name Updated Successfuly.!_*");
      } catch (_0x379b84) {
        await _0x25d56b.reply("*_Can't update name, Group Id not found!!_*");
      }
@@ -1058,9 +1058,9 @@ const {
      try {
        await _0x3d5ec9.bot.groupParticipantsUpdate(_0x3d5ec9.chat, [_0x23d1da], "add");
        await _0x3d5ec9.reply("*_User Added in Group!!_*");
-       _0x3d5ec9.react("✨");
+       _0x3d5ec9.react("🍥");
      } catch (_0x381769) {
-       await _0x3d5ec9.react("❌");
+       await _0x3d5ec9.react("🍥");
        await _0x3d5ec9.bot.sendMessage(_0x23d1da, {
          text: "*_Here's The Group Invite Link!!_*\n\n @" + _0x3d5ec9.sender.split("@")[0] + " Wants to add you in below group\n\n*_https://chat.whatsapp.com/" + (await _0x3d5ec9.bot.groupInviteCode(_0x3d5ec9.chat)) + "_*\n ---------------------------------  \n*_Join If YOu Feel Free?_*",
          mentions: [_0x3d5ec9.sender]
