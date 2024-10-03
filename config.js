@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 global.audio = "";
-global.video = "https://telegra.ph/file/085c4b1068f0f4f8db970.mp4";
+global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "maxdavid126@gmail.com";
@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Loukson/NARUTO-MD";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c5121735684e9a7848a03.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://iili.io/dbuMtaa.jpg";
 global.devs = "https://t.me/alex";
 global.sudo = process.env.SUDO || "22502331988";
 global.owner = process.env.OWNER_NUMBER || "22502331988";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/085c4b1068f0f4f8db970.mp4";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/085c4b1068f0f4f8db970.mp4,https://iili.io/dbuMtaa.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
